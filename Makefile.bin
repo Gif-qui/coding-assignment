@@ -1,0 +1,5 @@
+hw9: hw9.cpp hw9.h threading.cpp centralized.cpp
+	g++ -o3 -pthread hw9.cpp hw9.h threading.cpp centralized.cpp mcs.cpp -o hw9
+
+clean: 
+	rm hw9
